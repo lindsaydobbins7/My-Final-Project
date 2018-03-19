@@ -1,11 +1,5 @@
-/*   
-Theme Name:   Base 2016 (basic) 
-Theme URI:    http://dondempsey.com/base2016
-Description:  A basic collection for CSS for web development. Based on HTML 5 Boilerplate. https://html5boilerplate.com/
-Author:       Don Dempsey
-Author URI:   http://dondempsey.com/base2016
-Version:      0.3
-*/
+
+
 
 
 
@@ -13,7 +7,7 @@ Version:      0.3
 
 body {
 	color: #2F2F2F;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Cinzel', serif;
 	font-style: normal;
 	font-weight: 100;
 	line-height: 1.6em;
@@ -23,48 +17,50 @@ body {
 
 /* ------- [ Typography ] ------- */
 
-p { font-size: 1em; margin: 0 0 20px 0;}
-h2, h3, h4, h5, h6 { font-style: normal; margin: 0 0 0 0; color: #2F2F2F; }
+p { font-size: 1em; margin: 0 0 20px 0; font-family: 'Karla', sans-serif;}
+h2, h3, h4, h5, h6 { font-style: normal; margin: 0 0 0 0; color: #2F2F2F; font-family: 'Cinzel', serif; }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
 	font-size: 3.250em;
 	line-height: 1.1;
 }
 h2 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
 	/*font-size: 2.625em;*/
   font-size: 2.500em;
 	line-height: 1.1;
 }
 h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
 	font-size: 1.500em;
 	line-height: 1.1;
+  color: #CCB289;
 }
 h4 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
 	font-size: 1em;
 	line-height: 1.1;
 	text-transform: uppercase;
   letter-spacing: .05em;
 }
 h5 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
 	font-size: 1em;
 	line-height: 1.1;
 }
 h6 {
-	font-family: 'Roboto', sans-serif;
+font-family: 'Cinzel', serif;
 	font-weight: 900;
 	font-size: 1em;
 	line-height: 1.1;
 }
+
 
 
 /* -------- [ Site Links ] -------- */
